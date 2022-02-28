@@ -25,6 +25,9 @@ header {
     flex-direction: column;
     align-items: center;
 }
+#info {
+    width: 1180px;
+}
 
 #purple {
     color: rgba(232, 102, 236, 1);
@@ -69,4 +72,25 @@ pre {
 }
 pre::selection {
     background: rgba(232, 102, 236, 1);
+}
+
+
+
+@media screen and (max-width: 1400px) {
+    #info {
+        width: 800px;
+    }
+    main {
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 300px 300px 300px;
+    }
+}
+@media screen and (max-width: 850px) {
+    #info {
+        width: 400px;
+    }
+    main {
+        grid-template-columns: 400px;
+        grid-template-rows: 300px 300px 300px 300px;
+    }
 }
