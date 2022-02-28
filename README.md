@@ -1,4 +1,4 @@
-# CSS-Snippet-Cheat--Sheet-mini
+# CSS-Snippet-Cheat-Sheet-mini
 A collection of CSS snippets
 ## Description
 In this project I will build a collection of CSS snippets, so it is easer to learn CSS and build a knowledge base of CSS.
